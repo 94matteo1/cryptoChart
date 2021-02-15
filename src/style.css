@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.canvas {
+    height: 1080px;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.left-column {
+    width: 1200px;
+    height: 1080px;
+}
+
+.right-column {
+    width: 720px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.single-column {
+    width: 33%;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
